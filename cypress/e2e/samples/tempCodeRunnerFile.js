@@ -1,4 +1,3 @@
- if (true) {
-    let blockScoped = "Hello from let!";
-    console.log(blockScoped); // Output: Hello from let!
-  }
+var message = "Hello from ES5!";
+var message = "Hello 1from ES5!";
+console.log(message);

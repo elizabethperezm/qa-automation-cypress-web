@@ -12,7 +12,5 @@ describe("Sauce Demo Login test", () => {
     cy.get("#password").type("invalid_password");
     cy.get("#login-button").click();
     cy.get(".error-message-container").should("be.visible");
-
-    
   });
 });
